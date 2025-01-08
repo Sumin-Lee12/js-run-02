@@ -17,10 +17,16 @@
  */
 
 // TODO: hasNegative 함수를 작성하세요.
-function hasNegative() {}
+function hasNegative() {
+  const negative = ((e) => e < 0);
+  console.log(hasNegative.some(negative));
+}
 
 // TODO: allPositive 함수를 작성하세요.
-function allPositive() {}
+function allPositive() {
+  const positive = ((e) => e > 0);
+  console.log(allPositive.all(positive));
+}
 
 // export를 수정하지 마세요.
 export { hasNegative, allPositive };

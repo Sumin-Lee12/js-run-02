@@ -10,7 +10,13 @@
  */
 
 // TODO: squareElements 함수를 작성하세요.
-function squareElements() {}
+function squareElements(arr) {
+  for (let i = 0; i <= arr.length; i++) {
+    const square = arr[i] * arr[i];
+  squareElements = arr.map(square);
+  }
+  
+}
 
 // export를 수정하지 마세요.
 export { squareElements };
